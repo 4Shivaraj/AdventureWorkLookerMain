@@ -1,9 +1,17 @@
 view: dim_sales_territory {
   sql_table_name: dbo.DimSalesTerritory ;;
 
+  dimension: sales_territory_key {
+    type: number
+    sql: ${TABLE}.SalesTerritoryKey ;;
+  }
   dimension: sales_territory_alternate_key {
     type: number
     sql: ${TABLE}.SalesTerritoryAlternateKey ;;
+  }
+  dimension: sales_territory_region {
+    type: string
+    sql: ${TABLE}.SalesTerritoryRegion ;;
   }
   dimension: sales_territory_country {
     type: string
@@ -16,14 +24,7 @@ view: dim_sales_territory {
   dimension: sales_territory_image {
     type: string
     sql: ${TABLE}.SalesTerritoryImage ;;
-  }
-  dimension: sales_territory_key {
-    type: number
-    sql: ${TABLE}.SalesTerritoryKey ;;
-  }
-  dimension: sales_territory_region {
-    type: string
-    sql: ${TABLE}.SalesTerritoryRegion ;;
+    hidden: yes
   }
   measure: count {
     type: count

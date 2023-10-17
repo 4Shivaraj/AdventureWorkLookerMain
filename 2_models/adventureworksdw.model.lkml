@@ -11,72 +11,48 @@ datagroup: adventureworksdw_default_datagroup {
 
 persist_with: adventureworksdw_default_datagroup
 
-explore: adventure_works_dwbuild_version {}
 
-explore: database_log {}
+explore : dim_reseller {
+  join: dim_geography {
+    sql_on: inner join ${dim_reseller.geography_key} = ${dim_geography.geography_key}  ;;
+    relationship: many_to_one
+  }
+  hidden: yes
+}
 
-explore: dim_account {}
+explore: dim_product {
+  join: dim_product_subcategory {
+    sql_on: ${dim_product.product_subcategory_key} = ${dim_product_subcategory.product_subcategory_key};;
+    relationship: many_to_one
+  }
 
-explore: dim_currency {}
+  join: dim_product_category {
+    sql_on: ${dim_product_category.product_category_key} = ${dim_product_subcategory.product_category_key} ;;
+    relationship: many_to_one
+  }
+  hidden: yes
+}
 
-explore: dim_customer {}
+explore: fact_reseller_sales {
+  join: dim_sales_territory {
+    sql_on: inner join ${dim_sales_territory.sales_territory_key} = ${fact_reseller_sales.sales_territory_key}  ;;
+    relationship: many_to_one
+  }
 
-explore: dim_date {}
+  join: dim_reseller {
+    sql_on: inner join ${dim_reseller.reseller_key} = ${fact_reseller_sales.reseller_key} ;;
+    relationship: many_to_one
+  }
 
-explore: dim_department_group {}
+  join: dim_product {
+    sql_on: inner join ${dim_product.product_key} = ${fact_reseller_sales.product_key} ;;
+    relationship: many_to_one
+  }
 
-explore: dim_employee {}
+  join: dim_employee {
+    sql_on: inner join ${dim_employee.employee_key} = ${fact_reseller_sales.employee_key} ;;
+    relationship: many_to_one
+  }
+}
 
-explore: dim_geography {}
-
-explore: dim_organization {}
-
-explore: dim_product {}
-
-explore: dim_product_category {}
-
-explore: dim_product_subcategory {}
-
-explore: dim_promotion {}
-
-explore: dim_reseller {}
-
-explore: dim_sales_reason {}
-
-explore: dim_sales_territory {}
-
-explore: dim_scenario {}
-
-explore: fact_additional_international_product_description {}
-
-explore: fact_call_center {}
-
-explore: fact_currency_rate {}
-
-explore: fact_finance {}
-
-explore: fact_internet_sales {}
-
-explore: fact_internet_sales_reason {}
-
-explore: fact_product_inventory {}
-
-explore: fact_reseller_sales {}
-
-explore: fact_sales_quota {}
-
-explore: fact_survey_response {}
-
-explore: new_fact_currency_rate {}
-
-explore: prospective_buyer {}
-
-explore: v_assoc_seq_line_items {}
-
-explore: v_assoc_seq_orders {}
-
-explore: v_dmprep {}
-
-explore: v_target_mail {}
-
-explore: v_time_series {}
+explore: dim_date{}

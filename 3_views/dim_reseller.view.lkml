@@ -54,7 +54,7 @@ view: dim_reseller {
     sql: ${TABLE}.OrderFrequency ;;
   }
   dimension: order_month {
-    type: number
+    type: date_month_num
     sql: ${TABLE}.OrderMonth ;;
   }
   dimension: phone {
