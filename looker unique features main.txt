@@ -1,0 +1,87 @@
+In-database architecture: 
+	Looker connects directly to your data sources, eliminating the need for an ETL layer. 
+	This makes Looker very fast and efficient, even when working with large datasets.
+
+Git-integrated IDE: 
+	Looker's IDE is integrated with Git, allowing teams to collaborate on data app 
+	development using modern version control and workflows.
+	This makes it easy to track changes to your models and revert to previous versions if necessary.
+
+Flexible data connectors: 
+	Looker supports a wide range of data sources, including relational databases, 
+	cloud data warehouses, and NoSQL databases.
+
+Unit Testing:
+	Looker also offers unit testing capabilities, which allow you to test your LookML models 
+	and reports to ensure that they are working as expected. 
+	Unit tests are written in LookML and can be run directly in the Looker IDE.
+
+Drill-Anywhere: 
+	This enables users to explore and navigate their data easily. 
+	Users can click on data points to drill down and gain deeper insights
+
+Advanced data modeling: 
+	Looker's semantic modeling capabilities allow you to create complex data models 
+	that are easy to understand and use
+	it easy to transform and shape data without the need for external ETL processes.
+
+Powerful visualization tools: 
+	Looker offers a variety of visualization tools, including charts, graphs, and maps. 
+	You can also create custom visualizations using LookerML.
+
+Easy-to-use interface: 
+	Looker's user interface is clean and intuitive, 
+	making it easy for users of all skill levels to get started.
+
+Multi-cloud support: 
+	Looker can be deployed on any cloud platform, including Google Cloud Platform, 
+	Amazon Web Services, and Microsoft Azure. This makes it easy to integrate Looker 
+	with your existing cloud infrastructure.
+
+Looker API:
+	Looker offers a robust API that allows you to integrate Looker with your 
+	own applications and workflows
+	you can create dashboards, looks, views, and models in the Looker SDK.
+
+Pre-built applications: 
+	Looker offers pre-built templates, or "blocks," for specific industries and use cases.  
+	such as web analytics, marketing analytics, and sales analytics. 
+	This can save you time and effort in developing your own custom applications.
+
+Embedded analytics: 
+	Looker makes it easy to embed analytics into your own applications and websites. 
+	This allows you to provide your users with real-time insights into their data.
+
+AI and machine learning integration: 
+	Looker integrates with a number of AI and machine learning platforms, 
+	such as Google Cloud AI Platform and TensorFlow. 
+	This allows you to use AI and machine learning to automate your data analysis 
+	and get more insights from your data.
+
+Data Governance:
+	Access control:
+		Looker allows you to control who has access to your data using role-based access control (RBAC).
+		RBAC allows you to create roles and assign users to those roles. 
+		Each role can be granted different permissions, such as the ability to view, edit, or share data.
+
+	Data permissions:
+		Looker allows you to control who has access to specific data elements using data permissions. 
+		Data permissions allow you to specify which users and groups can view, edit, or 
+		share specific data elements, such as dimensions, measures, and explores.
+
+	Auditing:
+		Looker provides audit logs that track all activity in your Looker instance. 
+		Audit logs can be used to track 
+			who accessed your data, 
+			what they did with it, 
+			and when they did it.
+
+LookML sharing: 
+	Looker makes it easy to share LookML models with other users, 
+	which allows teams to collaborate on data modeling and analysis.
+
+Looker Data Studio integration: 
+	Looker integrates with Google Data Studio, which makes it easy to create and 
+	share interactive data visualizations.
+	.
+

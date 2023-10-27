@@ -40,6 +40,9 @@ Embedding and Integration: 	Looker offers various options for embedding its repo
 Permission and Security Model: 	Looker provides a robust security and permission model, allowing administrators to control who can access specific data 
 				and reports. It also offers row-level security, which ensures that users only see the data they are authorized to view.
 
+Looker (API) – 			Looker API is used for calling data while providing a secure RESTful API that allows users to create custom applications, 
+				workflows, and scripts that can automate tasks.
+
 Sit on top of database:		Direct Database Connectivity: 
 				Looker can connect directly to your database, which allows you to leverage 
 				the power and performance of your existing database system. This means you can take advantage of your 
