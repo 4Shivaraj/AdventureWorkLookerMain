@@ -1,0 +1,76 @@
+LookML is Looker's modeling language, and it offers several distinct advantages:
+
+Semi-Structured Metadata: 	LookML allows you to define metadata in a semi-structured way. 
+				You can create reusable objects like dimensions, measures, and fields, and 
+				then use these throughout your data models and reports. 
+				This approach ensures consistency and reduces redundancy in your data definitions.
+
+Version Control: 		Looker provides built-in version control for LookML files, which is critical for tracking changes, 
+				collaborating with a team, and maintaining a history of data model modifications.
+
+Centralized Data Model 
+Management: 			LookML centralizes data model definitions, making it easier to maintain and update your data models. 
+				When changes are made in LookML, they are reflected across all reports and dashboards that use those definitions.
+
+Data Source Flexibility
+&
+Cloud based platform:	 	Looker supports a wide range of data sources and has extensive connector options. 
+				This flexibility makes it suitable for organizations with diverse data environments
+
+Data Abstraction: 		With LookML, you can abstract complex SQL queries into more understandable business logic. 
+				This means that non-technical users can work with data without needing to write SQL queries, 
+				making it accessible to a broader audience.
+
+Enhanced Collaboration: 	LookML encourages collaboration among data analysts, data engineers, 
+				and business users. Data analysts can define data models, and business users 
+				can create their own reports and dashboards using those models.
+
+Reusable Components: 		You can create reusable LookML components that encapsulate complex calculations or transformations. 
+				These components can be shared and reused across different reports and dashboards.
+
+Data Governance: 		LookML facilitates data governance by ensuring that data models are consistent and well-documented. 
+				You can add descriptions, labels, and other metadata to make it easier for users to understand the data.
+
+Performance Optimization: 	LookML provides performance optimization features, allowing you to optimize the generated SQL queries, 
+				which can lead to faster report execution and reduced strain on your database.
+
+Embedding and Integration: 	Looker offers various options for embedding its reports and dashboards directly into other applications and platforms.
+				This makes it a valuable tool for organizations that want to integrate data analytics seamlessly into their products or services.
+
+Permission and Security Model: 	Looker provides a robust security and permission model, allowing administrators to control who can access specific data 
+				and reports. It also offers row-level security, which ensures that users only see the data they are authorized to view.
+
+Sit on top of database:		Direct Database Connectivity: 
+				Looker can connect directly to your database, which allows you to leverage 
+				the power and performance of your existing database system. This means you can take advantage of your 
+				database's indexing, query optimization, and data processing capabilities.
+
+				Live Data Access: 
+				By sitting on top of the database, Looker provides real-time or near-real-time access to your data. 
+				This is especially beneficial for organizations that require up-to-the-minute insights and analytics.
+
+				Reduced Data Redundancy: 
+				Looker's approach minimizes data redundancy. Instead of replicating and storing data in a separate data warehouse, 
+				Looker connects directly to the source, reducing the need for ETL (Extract, Transform, Load) processes and 
+				associated data storage costs.
+
+				Scalability and Performance: 
+				Leveraging the underlying database's scalability and performance capabilities, 
+				Looker can handle large volumes of data efficiently, making it well-suited for organizations with significant data requirements.
+
+				Data Freshness: 
+				Since Looker is closely tied to the database, changes and updates in the database are reflected in real time. 
+				This ensures that your analytics are always based on the most current data.
+
+				Compatibility: 
+				Looker can work with a wide range of database management systems, making it adaptable to the specific technology
+				stack that your organization uses.
+
+Most importantly it is built by developers
+Implementing the development workflows ideas like generally in enterprise environment we talk about 
+* Developement
+* Staging
+* Production
+That is the sequence which any application is actually deployed in enterprise environment 
+Looker bring the same workflow ideas to data analytics 
+
