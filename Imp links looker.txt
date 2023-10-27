@@ -1,0 +1,68 @@
+
+A/B alpha beta testing in Looker visualization is a way to test different versions of a Looker visualization to see which one performs the best. This can be done by randomly assigning users to see one of the different versions of the visualization and then tracking which version users interact with more.
+
+To perform A/B alpha beta testing in Looker visualization, you will need to:
+
+Create two or more versions of the visualization that you want to test.
+Randomly assign users to see one of the different versions of the visualization.
+Track which version users interact with more.
+You can track which version users interact with more by using Looker's engagement metrics. Engagement metrics track how users interact with your Looker content, such as how many times they view a visualization, how long they spend viewing a visualization, and how many times they click on elements in a visualization.
+
+Once you have collected data on how users interact with the different versions of the visualization, you can use Looker's analytics tools to analyze the data and see which version performs the best.
+
+Dashboarding principle
+https://medium.com/@goyalankit28/dash-boarding-fundamentals-prerequisites-process-designing-best-practices-6faef1bf30c0
+
+Looker vs Looker studio
+https://medium.com/@heliyahasani/my-experience-with-looker-studio-4fdbb22fd96d
+
+Why do we derive and persist table | Looker | Google Cloud
+https://medium.com/bitstrapped/why-do-we-derive-and-persist-table-looker-google-cloud-da0f0cc59749
+
+5 Ways to Configure Looker for Performance and Scalability
+https://blog.montrealanalytics.com/top-5-ways-to-configure-your-looker-instance-for-performance-and-scalability-33e6b3bf01b9
+
+Multistage Deployment in Looker (Dev > Stg > Prod)
+https://blog.searce.com/multistage-deployment-in-looker-dev-stg-prod-f2103cbcda5f
+
+Provisioning User Permissions and Data Access in Looker
+https://blog.montrealanalytics.com/the-complete-toolkit-for-provisioning-user-permissions-and-data-access-in-looker-part-1-ff6ff2f198e0
+https://blog.montrealanalytics.com/part-2-the-complete-toolkit-for-provisioning-user-permissions-and-data-access-in-looker-91b67c63a9c4
+
+Different types of looker instances
+https://medium.com/google-cloud/looker-self-hosted-installation-on-gcp-7e6a5050784a
+
+Create Contextual Drills in Looker
+https://blog.montrealanalytics.com/limit5-create-contextual-drills-in-looker-23a5047297cd
+
+Looker Best Practices
+https://medium.com/trendyol-tech/looker-practices-b7f555ba2c99
+
+How to manage users with Looker API using looker sdk in python
+https://lukasz-aszyk.medium.com/how-to-manage-users-with-looker-api-64850613570c
+
+Caching and datagroups with lookml
+https://agrawalkomal.medium.com/caching-and-datagroups-with-lookml-fae75c427e44
+
+Structure your lookml project
+https://medium.com/slateco-blog/how-to-structure-your-lookml-project-5682d178a3ca
+
+Limiting costs on BigQuery and Looker — Batch and Stream analytics
+https://medium.com/@renatus18/limiting-costs-on-bigquery-and-looker-batch-and-stream-analytics-fdc4c52c01b
+
+how-to-structure-your-lookml
+https://medium.com/slateco-blog/how-to-structure-your-lookml-cac02f1866bb
+
+Looker Email Reports — Making it Flexible with Airflow
+https://medium.com/@prabhakaran_arivalagan/looker-email-reports-making-it-flexible-with-airflow-6d96296813e5
+
+Comprehensive Guide to Looker Deployment and Best Practices	
+https://medium.com/@prabhakaran_arivalagan/comprehensive-guide-to-looker-deployment-and-best-practices-502ab608949d
+
+How to Implement Row-level Data Security in Looker
+https://blog.montrealanalytics.com/limit-5-how-to-implement-row-level-data-security-in-looker-7441919ab2a7
+https://blog.searce.com/multi-tenancy-with-row-level-data-security-in-looker-9aab2a6e3724
+
+5 Tips to Optimise your Looker Dashboards
+https://medium.com/@gismerojavi/5-tips-to-optimise-your-looker-dashboards-4178685f0b11
+

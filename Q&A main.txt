@@ -1,0 +1,293 @@
+Greeting to pramod:
+	 
+	"Hello Good morning Pramod, I'm thrilled to meet you for this opportunity 
+	as a UI analyst. I look forward to discussing how I can contribute to Google's 
+	success in this role."
+
+Tell Me About Yourself:
+	My self is shivaraj, I have total of 3 years of experience in IT industry,
+	in that relavant expreience i have worked on power bi for almost 2 years and remainng in looker,
+	I have been part of preparing end to end reports and interactive dashboards, 
+	coming to my skillsets i am good at sql, python as programming langauge,cloud services such as Azure and GCP
+	and visualisation tools such as Power BI and Google looker and looker studio
+
+End to End Project
+	As part of my professional experience, I successfully contributed to the Cottonwood Financial project which is
+	US based company, requirements was to get the payment schedule data for all the loans which had a transaction on 
+	the previous day. 
+
+	The challenge in this requirement was that there were multiple On-Premise SQL Server instances 
+	on which the databases were placed. 
+
+	There would be a performance barrier if we used linked servers to collect data from all the databases.
+	I proposed a solution which involved copying all the On-Premise data to Azure Synapse (cloud) once everyday.
+
+	We created data pipelines in Azure Data Factory which would copy the loan origination tables, transaction tables 
+	and the payment schedule tables from all the On-Premise databases to Azure Synapse. 
+
+	This created a significant difference in the performance of the report and mitigated the risk of linked server 
+	connectivity issues. This paved way for using a single Azure Synapse instance for all the reporting needs 
+	of the customer.
+		
+	for reporting solution,
+	now The data was there in synapse analytics dedicated sql pool  and Using spark pool did a transformations and 
+	cleaning, created a data modelling i,e,, star schema (facts and dimensions) and
+	loading it to consuming layer where data analyst consume the data for visualisation
+	then follow data analysis to identify the key values which are effective in visualizing the data. 
+	Then perform transformations to ensure consistent data is available before starting the visualization. 
+	I would then work on relationships between the tables so that there will not be any challenge in building interactive visuals 
+	using data from multiple tables.
+	Once the uniform data is ready with effective relationships between the tables,
+	I would develop dashboard using different charts, KPIs, graphs and tables which ever fits the user requirement and provides 
+	meaningful business insights.
+	Reports:
+		Customer Payment Summary: Aggregates payments by customer.
+		Payment History Report: Shows historical payment data.
+		Payment Due Report: Lists all upcoming payments.
+		Delinquency Report: Highlights late or missed payments.
+		
+		
+	Dashboard:
+		Payment Schedule Overview: A visual representation of upcoming payments.
+		Payment Trends: Charts showing payment trends over time.
+		Customer Performance: Metrics on individual customer payment behavior.
+
+
+
+What is Data Analytics:
+	Data Analytics involves collecting, cleaning, analyzing the data to find trends, patterns and insights. 
+
+Step to be followed for visualizing the dashboard
+	Data Source:
+
+	Data Extraction and Transformation:
+
+	Data Modeling:
+
+	Visualization Tools:
+]
+	Reports:
+		Generate reports that provide detailed information about the payment schedule. Examples of reports include:
+		Customer Payment Summary: Aggregates payments by customer.
+		Payment History Report: Shows historical payment data.
+		Payment Due Report: Lists all upcoming payments.
+		Delinquency Report: Highlights late or missed payments.
+		
+		
+	Dashboard:
+		Create a dashboard for a high-level overview of payment schedule data. Key elements of the dashboard may include:
+		Payment Schedule Overview: A visual representation of upcoming payments.
+		Payment Trends: Charts showing payment trends over time.
+		Customer Performance: Metrics on individual customer payment behavior.
+		
+
+	Automation:
+		Consider automating the data extraction and report generation process to ensure that reports are always up-to-date.
+		
+	Security and Access Control:
+		Implement security measures to ensure that sensitive payment data is protected. Define access controls to restrict who can view and modify the reports and dashboards.
+		
+	Testing and Validation:
+
+	User Training:
+]
+	Feedback and Iteration:
+
+	Documentation:
+
+The Role of Data Analyst in UX/UI Design:
+
+	- UX, or user experience, UX design is all about identifying and solving user problems
+		UX design usually comes first in the product development process, 
+		A UX designer considers the user’s entire journey to solve a particular problem; 
+		what steps do they take? 
+		What tasks do they need to complete? 
+		How straightforward is the experience?
+		
+	- UI, A user interface is the point of interaction between the user and  product
+	—	like the touchscreen on your smartphone or the touchpad you use to select what kind of coffee you 
+		want from the coffee machine.
+		
+		
+		file:///C:/Users/Shivarajuk/OneDrive%20-%20Motivity%20Labs/Desktop/UX%20and%20UI%20full%20process.png
+		file:///C:/Users/Shivarajuk/OneDrive%20-%20Motivity%20Labs/Desktop/UX%20and%20UI%20designer%20do.png
+		https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/#what-is-user-interface-ui-design
+
+User center design
+
+User-centered design is about involving end-users throughout the design process. In dashboard development, it means:
+•	Early Involvement: Engaging users in requirements gathering and feedback.
+•	Prototyping: Creating prototypes for user testing and refining based on feedback.
+•	Iterative Design: Continuously incorporating user feedback to improve the dashboard.
+
+
+Designing the product experience based on the user needs goals challenges and understanding their behaviors
+we are keeping this human factor and consideration while designing the a product and an experience
+
+prototyping is small test we are going to do in order to validate your idea for getting insights for your concepts
+instead of buiding the full fledged simulation we can use video as prototype approach to test and get insights from the
+user early in the concept exploration stage This helped us to make product user centric and also have a solution that 
+is grounded in a real problem, Sometime we end up having solution without having what problem we are trying to solve and
+that doesnt lead to user centric product also lead to lot of revenue loss for the comapny while buiding produt,
+
+
+How do you approach designing a user-friendly and visually appealing dashboard from a UX/UI perspective?
+https://bootcamp.uxdesign.cc/user-interface-design-principles-and-best-practices-72aa85203e46
+
+How do you choose the most appropriate chart types for different types of data and insights?
+file:///D:/MotivityLabs/Google%20Looker/Visualizations_cheatsheet.pdf
+
+Can you demonstrate your ability to present a complex dashboard to a non-technical audience?
+•	Simplicity: I focus on presenting the most essential insights and avoid technical jargon.
+•	Storytelling: I narrate a clear and compelling story, starting with a problem statement, data-driven findings, and actionable recommendations.
+•	Visual Aids: I use visual aids, such as charts and graphs, to support the narrative and make the data more digestible.
+
+How do you gather and incorporate user feedback into dashboard design?
+•	Collect Feedback: Use surveys, user interviews, and usability tests to gather input.
+•	Prioritize Feedback: Identify common pain points and prioritize improvements.
+•	Iterate: Make incremental changes based on feedback and continually refine the dashboard.
+
+
+What principles do you follow for effective dashboard design, both in terms of aesthetics and usability?
+https://ubiq.co/analytics-blog/5-key-principles-effective-dashboards/
+
+
+What design principles do you follow to create a visually appealing dashboard?
+•	I follow design principles like:
+•	Visual Hierarchy: Emphasize important elements with color, size, or placement.
+•	Typography: Choose readable fonts and maintain consistency.
+•	Col-or Theory: Use a cohesive color scheme and consider color psychology.
+•	Whitespace: Ensure proper spacing for clarity and readability.
+
+
+How do you ensure your dashboards are mobile-responsive for users on various devices?
+•	To ensure mobile responsiveness:
+•	Responsive Design: Use responsive CSS frameworks like Bootstrap.
+•	Test on Multiple Devices: Test the dashboard on various screen sizes and resolutions.
+•	Adaptive Layouts: Adapt layouts and content to fit smaller screens without sacrificing usability.
+
+
+Testing
+	- Usability Testing
+	Usability testing involves observing real users interact with the dashboard.
+	•	Task Completion: Can users complete tasks efficiently?
+	•	User Satisfaction: Gather feedback on ease of use and overall satisfaction.
+	•	Navigation: Assess the clarity of navigation and the discoverability of features.
+	•	Error Identification: Identify pain points and areas where users encounter errors.
+
+
+
+Looker vs Looker studio
+	Although both Looker and Looker Studio are data analytics and visualization tools, their functions are slightly different.
+
+	Advantages of Looker:
+
+	Data modeling: Looker offers an extensive layer for data modeling that enables users to specify connections and computations between databases, to create and update reports as the underlying data changes.
+
+	Scalability: Looker is built to scale with expanding companies and is capable of handling big datasets.
+
+	Customizable dashboards: Looker’s dashboards allow for the addition of text, pictures, and unique graphics to reports.
+
+	Disadvantages of Looker
+
+	Steep learning curve: The installation and use of Looker can be complicated.
+	Cost: Looker is not cheap, particularly for tiny companies.
+
+	Looker Studio’s Advantages
+
+	Simple to use: Looker Studio offers a user-friendly UI for developing unique maps and reports, even for non-technical users.
+
+	Sharing and teamwork: Looker Studio makes it simple for team members and partners to exchange and work together on reports.
+
+	Integration: Looker Studio has larger data tool integration.
+
+	Looker Studio’s Disadvantages
+
+	Limited data modeling: Data modeling skills are less robust than those of Looker, it is less appropriate for complicated data analysis.
+
+	Variety of customization choices are available with Looker Studio, but it might not be as versatile as other data visualization tools on the market.
+
+Different types of looker instances
+
+	Looker is Google Cloud’s cloud-native Enterprise BI Platform enabling access to near real-time data when and where 
+	you need it.
+	You can choose between Looker hosted solution where Looker manages all the components, 
+	and a customer hosted solution where you own your environment.
+	With Looker hosted solution you do not have to worry about installation, upgrades and scaling and also the time to solve issues is faster. 
+	With a customer hosted solution, you have complete control on your infrastructure.
+	It is possible to install Looker on a single VM but this is acceptable just for small workload databases. 
+	A better solution for a production environment is a cluster of VMs 
+
+
+Explain the concept of LookML and how it's used in Looker
+	LookML is a language used in Looker to define data models and relationships between tables in your database. 
+	It's essential because it provides a consistent, 
+	reusable way to define metrics, dimensions, and joins, ensuring data consistency across dashboards.
+
+
+Terminologies in looker
+	Fields: 
+		Fields are basically columns
+		They're basically the column wise thing that tells you something about the data.
+		So for example, I know this field is office name, so I know every single row in here will be an office name
+
+	Dimensions:
+		A dimension is basically a field that contains qualitative values that are used to categorize, segmentor 
+		or  reveal the details in your data.
+		Ex: qualitative values, so there are things like strings, names, dates, geographical data and
+		quantitative values that are discrete, like, for example, ID.
+
+	Measures:
+		Measures, on the other hand, are basically numeric quantitative values that you can use to measure,
+		they can be aggregated. You can basically combine five values of measures into one.
+
+	Explores: 
+		It is actually a looker specific concept. And it's basically the starting point for any data exploration and analysis.
+		
+		
+	Looks: 
+		Looks are basically explorers that have been saved.
+		Looks are saved Pieces of analysis, also called reports 
+
+	Dashboards:
+		dashboards are basically a compilation of different looks and enforces some interaction between them
+
+
+	Boards:
+		a board is used to organize your different looks.
+		so we have a board called sales data, and all of these looks relate to sales data.
+		for example, the monthly reports that someone would look at related to sales
+		nice about boards is after you create your board, which is a compilation of different reports,
+		you can then send that and share it with people very easily.
+
+
+	Folders:
+		Folders have the same meaning as folders in your computer they're used to store your files.
+		Your files or reports and dashboards. we can save reports, looks and dashboards in folders
+	
+
+Production deployment of looker
+https://blog.searce.com/multistage-deployment-in-looker-dev-stg-prod-f2103cbcda5f
+
+Have you used version control systems like Git for collaborative work in data analysis and dashboard development? If so, how?
+•	Yes, I use Git for version control to track changes in LookML files, SQL queries, and report configurations. 
+This allows for collaboration with team members while maintaining a history of changes and the ability to revert if needed.
+
+How to Implement Row-level Data Security in Looker
+https://blog.montrealanalytics.com/limit-5-how-to-implement-row-level-data-security-in-looker-7441919ab2a7
+
+5 Tips to Optimise your Looker Dashboards
+https://medium.com/@gismerojavi/5-tips-to-optimise-your-looker-dashboards-4178685f0b11
+
+
+Caching and datagroups with lookml
+https://agrawalkomal.medium.com/caching-and-datagroups-with-lookml-fae75c427e44
+https://medium.com/bitstrapped/why-do-we-derive-and-persist-table-looker-google-cloud-da0f0cc59749
+
+5 Ways to Configure Looker for Performance and Scalability
+https://blog.montrealanalytics.com/top-5-ways-to-configure-your-looker-instance-for-performance-and-scalability-33e6b3bf01b9
+
+
+
+
+
