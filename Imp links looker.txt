@@ -1,3 +1,28 @@
+Branching for New Features:
+
+The team initiates a new branch in Looker's version control system to introduce a new analytical feature, such as incorporating a new metric or visualization.
+Analysts define the LookML model for the new feature on the dedicated branch.
+Code Review:
+
+Another team member, potentially a data engineer or a peer analyst, reviews the LookML code on the feature branch.
+Collaborative feedback and suggestions are provided directly within Looker's version control interface, fostering a cooperative code review process.
+Iterative Development:
+
+The team iteratively refines the LookML code based on the feedback received during the code review.
+Continuous updates are pushed to the feature branch, allowing for collaborative refinement of the new analytical feature.
+Integration and Merging:
+
+Once the new feature is well-defined and reviewed, the changes from the feature branch are merged into the main branch.
+This integration ensures that the new analytical feature becomes part of the overarching LookML model for the analytical solution.
+Business User Contribution:
+
+Business users, who may not possess extensive technical expertise, utilize Looker's user-friendly interface to create their own reports and dashboards.
+They build upon the LookML models crafted by the analysts and data professionals, tailoring the analytical solution to their specific requirements.
+Feedback Loop:
+
+Business users provide feedback on the usability and relevance of the analytical solution.
+Analysts and data professionals can then iterate on the LookML models based on this feedback, ensuring that the solution evolves to align with business objectives.
+
 
 A/B alpha beta testing in Looker visualization is a way to test different versions of a Looker visualization to see which one performs the best. This can be done by randomly assigning users to see one of the different versions of the visualization and then tracking which version users interact with more.
 
